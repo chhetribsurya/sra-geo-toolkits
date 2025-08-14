@@ -458,35 +458,12 @@ python geo_processor.py analyze GSE188486 --log-level DEBUG
 options(verbose = TRUE)
 ```
 
-## Best Practices
-
-### Data Organization
-
-1. **Use descriptive directory names** that include project names and dates
-2. **Maintain consistent naming conventions** across analyses
-3. **Document your analysis steps** in README files within project directories
-4. **Back up raw data** before processing
-
-### Performance Recommendations
-
-1. **Start with small test datasets** before processing large batches
-2. **Use appropriate thread counts** (typically number of CPU cores minus 1)
-3. **Monitor disk space** throughout processing
-4. **Clean up intermediate files** after successful completion
-
 ### Workflow Integration
 
 **Typical Analysis Workflow:**
 1. Use SRA script to download sequencing data
 2. Use Python GEO script to organize metadata and supplementary files
-3. Use R GEO script for statistical analysis and visualization
-4. Combine results for comprehensive analysis
-
-**Data Management:**
-- Keep raw downloads separate from processed data
-- Use version control for analysis scripts
-- Document software versions and parameters used
-- Create analysis logs for reproducibility
+3. Use R GEO script to query GEO/GSE, organize metadata and supplementary files
 
 ### Security and Ethics
 
