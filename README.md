@@ -1,4 +1,4 @@
-# Genomics Data Processing Pipeline
+# Genomics Data (SRA/GEO) Processing Pipeline
 
 A suite of scripts for downloading and processing genomics data from NCBI SRA and GEO databases. This pipeline provides robust tools for acquiring sequencing data (SRA) and gene expression datasets (GEO) with automated processing, validation, and organization.
 
